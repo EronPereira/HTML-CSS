@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+header{
+    padding-top: 16px;
+    background-color: rgb(151, 151, 247);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    border: red;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: rgb(45, 45, 230);
+}
+
+
+        /*Primeira Sessão*/
+.primeiraSessao{
+    display: flex;
+    background-color: rgb(248, 243, 233);
+    align-items: center;
+    height: 18vw;
+    justify-content: space-evenly;
+    font-family:Verdana;
+    color: rgb(50, 50, 231);
+}
+.primeiraSessao div{
+    width: 40vw;
+}
+.primeiraSessao img{
+    width: 72%;
+}
+
+
+        /*Segunda Sessão*/
+.segundaSessao{
+    background-color: rgb(151, 151, 247);
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-evenly;
+    color: white;
+    font-size: xx-large;
+}
+.segundaSessao div{
+    width: 40vw;
+}
+.segundaSessao img{
+    width: 96%;
+}
+
+
+        /*Terceira Sessão*/
+.terceiraSessao{
+    background-color: rgb(248, 243, 233);
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    justify-content: space-evenly;
+}
+
+
+        /*Rodapé*/
+.rodape{
+    background-color: rgb(151, 151, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+.links{
+    display: flex;
+    width: 8vw;
+}
+
+
